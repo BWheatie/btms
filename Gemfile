@@ -9,7 +9,6 @@ gem 'jbuilder'
 gem 'jquery-rails'
 gem 'neat'
 gem 'normalize-rails'
-gem 'pg'
 gem 'puma'
 gem 'rails', '4.2.1'
 gem 'sass-rails'
@@ -21,6 +20,7 @@ gem 'unicorn'
 
 group :production do
   gem 'rails_12factor'
+  gem 'pg'
 end
 
 group :test, :development do
